@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
-namespace CLDVPOE.Functions.Functions
+namespace FunctionAppCLDV.Functions
 {
     public class BlobFunctions
     {

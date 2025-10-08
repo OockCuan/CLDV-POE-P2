@@ -1,7 +1,7 @@
 ﻿using Azure;
 using Azure.Data.Tables;
 
-namespace CLDVPOE.Functions.Entities
+namespace FunctionAppCLDV.Entities
 {
     public class CustomerEntity : ITableEntity
     {

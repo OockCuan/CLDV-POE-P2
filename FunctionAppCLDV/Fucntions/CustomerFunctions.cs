@@ -1,12 +1,12 @@
-﻿using CLDVPOE.Functions.Entities;   // REQUIRED
-using CLDVPOE.Functions.Helpers;    // REQUIRED
-using CLDVPOE.Functions.Models;     // REQUIRED
+﻿using FunctionAppCLDV.Entities;   
+using FunctionAppCLDV.Helpers;    
+using FunctionAppCLDV.Models;     
 using Azure.Data.Tables;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Configuration;
 
-namespace CLDVPOE.Functions.Functions
+namespace FunctionAppCLDV.Functions
 {
     public class CustomersFunctions
     {
@@ -19,7 +19,6 @@ namespace CLDVPOE.Functions.Functions
             _table = cfg["TABLE_CUSTOMER"] ?? "Customer";
         }
 
-        // -------- LIST ALL CUSTOMERS --------
         [Function("Customers_List")]
         public async Task<HttpResponseData> List(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "customers")] HttpRequestData req)
@@ -34,7 +33,6 @@ namespace CLDVPOE.Functions.Functions
             return HttpJson.Ok(req, items);
         }
 
-        // -------- GET SINGLE CUSTOMER --------
         [Function("Customers_Get")]
         public async Task<HttpResponseData> Get(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "customers/{id}")] HttpRequestData req,

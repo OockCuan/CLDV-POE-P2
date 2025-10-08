@@ -3,21 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\customerfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\cldv6212-st10439216-poep1-main\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\cldv6212-st10439216-poep1-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\uploadsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\helpers\\multiparthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\helpers\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\helpers\\httpjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\entities\\tableentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\cldv6212-st10439216-poep1-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\queueprocessorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\productfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\orderfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\customerfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\functionappcldv\\fucntions\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\cldv6212-st10439216-poep1-main\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\github\\cldv-poe-p2\\cldv6212-st10439216-poep1-main\\models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,58 +101,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
-              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
-              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T11:27:03.568Z",
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\local.settings.json",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\local.settings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\local.settings.json",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-08T15:10:54.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ApiModels.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Models\\ApiModels.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Models\\ApiModels.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Models\\ApiModels.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Models\\ApiModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:09:51.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Function1.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Function1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Function1.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Function1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:08:47.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MultipartHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\MultipartHelper.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Helpers\\MultipartHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\MultipartHelper.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Helpers\\MultipartHelper.cs",
+              "ViewState": "AgIAAAgAAABgZmZmZiYowAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:02:23.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\Map.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Helpers\\Map.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\Map.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Helpers\\Map.cs",
+              "ViewState": "AgIAACMAAADwmZmZmRkkwDAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:39:44.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HttpJson.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\HttpJson.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Helpers\\HttpJson.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Helpers\\HttpJson.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Helpers\\HttpJson.cs",
+              "ViewState": "AgIAAAAAAAAAaGZmZmb0vwcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:12:32.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadsFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\UploadsFunctions.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\UploadsFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\UploadsFunctions.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\UploadsFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:05:09.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QueueProcessorFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\QueueProcessorFunctions.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\QueueProcessorFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\QueueProcessorFunctions.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\QueueProcessorFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:00:52.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\ProductFunctions.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\ProductFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\ProductFunctions.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\ProductFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:48:45.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\OrderFunctions.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\OrderFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\OrderFunctions.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\OrderFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:45:58.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\CustomerFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:27:03.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BlobFunctions.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\BlobFunctions.cs",
               "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Fucntions\\BlobFunctions.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Fucntions\\BlobFunctions.cs",
               "RelativeToolTip": "..\\FunctionAppCLDV\\Fucntions\\BlobFunctions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:59:26.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:59:26.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TableEntities.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Entities\\TableEntities.cs",
               "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Entities\\TableEntities.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\FunctionAppCLDV\\Entities\\TableEntities.cs",
               "RelativeToolTip": "..\\FunctionAppCLDV\\Entities\\TableEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:55:47.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:55:47.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-08T10:54:04.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:54:04.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -130,12 +277,11 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:48:45.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:48:45.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "FileUploadModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Models\\FileUploadModel.cs",
               "RelativeDocumentMoniker": "Models\\FileUploadModel.cs",
@@ -143,12 +289,11 @@
               "RelativeToolTip": "Models\\FileUploadModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:48:39.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:48:39.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -156,12 +301,11 @@
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:47:18.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:47:18.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "UploadController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Controllers\\UploadController.cs",
               "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
@@ -169,12 +313,11 @@
               "RelativeToolTip": "Controllers\\UploadController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:46:43.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:46:43.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -182,12 +325,11 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAmwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:33:51.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:33:51.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -195,12 +337,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:18:26.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:18:26.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
@@ -208,12 +349,11 @@
               "RelativeToolTip": "Controllers\\CustomerController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:09:42.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:09:42.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "IFunctionsApi.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Services\\IFunctionsApi.cs",
               "RelativeDocumentMoniker": "Services\\IFunctionsApi.cs",
@@ -221,12 +361,11 @@
               "RelativeToolTip": "Services\\IFunctionsApi.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:03:11.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:03:11.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "FunctionsApiClient.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Services\\FunctionsApiClient.cs",
               "RelativeDocumentMoniker": "Services\\FunctionsApiClient.cs",
@@ -234,12 +373,11 @@
               "RelativeToolTip": "Services\\FunctionsApiClient.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAkwAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:48:06.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:48:06.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
@@ -247,12 +385,11 @@
               "RelativeToolTip": "Controllers\\OrderController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T09:01:04.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T09:01:04.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Function1.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\FunctionAppCLDV\\Function1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\FunctionAppCLDV\\Function1.cs",
