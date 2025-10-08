@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\vmbackup\\cldv6212-st10439216-poep1-main\\cldv6212-st10439216-poep1-main\\services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\vmbackup\\cldv6212-st10439216-poep1-main\\cldv6212-st10439216-poep1-main\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7389AE-26B3-422C-84A5-F3A7BDAB1E53}|..\\FunctionAppCLDV\\FunctionAppCLDV.csproj|c:\\users\\lab_services_student\\desktop\\vmbackup\\cldv6212-st10439216-poep1-main\\functionappcldv\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|c:\\users\\lab_services_student\\desktop\\vmbackup\\cldv6212-st10439216-poep1-main\\cldv6212-st10439216-poep1-main\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08E48A3-6851-4926-B8B1-29ABB1D1DFAB}|CLDVPOE.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FunctionsApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Services\\FunctionsApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\FunctionsApiClient.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Services\\FunctionsApiClient.cs",
+              "RelativeToolTip": "Services\\FunctionsApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:48:06.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAKQAAAAAeGZmZmYQwK0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:01:04.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\FunctionAppCLDV\\Function1.cs",
+              "RelativeDocumentMoniker": "..\\FunctionAppCLDV\\Function1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\FunctionAppCLDV\\Function1.cs",
+              "RelativeToolTip": "..\\FunctionAppCLDV\\Function1.cs",
+              "ViewState": "AgIAACIAAAAARDMzMzP3v3cAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:15:21.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T11:40:31.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
