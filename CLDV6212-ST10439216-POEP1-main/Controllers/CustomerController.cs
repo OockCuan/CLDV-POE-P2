@@ -50,7 +50,7 @@ namespace CLDVPOE.Controllers
 
             try
             {
-                await _api.UpdateCustomerAsync(customer.Id, customer);
+                await _api.UpdateCustomerAsync(customer.CustomerId, customer);
                 TempData["Success"] = "Customer updated successfully!";
                 return RedirectToAction(nameof(Index));
             }

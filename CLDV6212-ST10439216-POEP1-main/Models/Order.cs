@@ -12,7 +12,7 @@ namespace CLDVPOE.Models
         public ETag ETag { get; set; }
 
         [Display(Name = "Order ID")]
-        public string Id { get; set; } = string.Empty;
+        public string OrderId => RowKey;
 
         [Required]
         [Display(Name = "Customer")]
@@ -50,7 +50,7 @@ namespace CLDVPOE.Models
         public string Status { get; set; } = "Submitted";
     }
 
-    public enum OrderStatus 
+    public enum OrderStatus
     {
         Submitted,
         Processing,

@@ -15,6 +15,7 @@ namespace FunctionAppCLDV.Entities
         public string Username { get; set; } = "";
         public string Email { get; set; } = "";
         public string ShippingAddress { get; set; } = "";
+        DateTimeOffset? ITableEntity.Timestamp { get; set; }
     }
 
     public class ProductEntity : ITableEntity
@@ -29,6 +30,7 @@ namespace FunctionAppCLDV.Entities
         public decimal Price { get; set; }
         public int StockAvailable { get; set; }
         public string ImageUrl { get; set; } = "";
+        DateTimeOffset? ITableEntity.Timestamp { get; set; }
     }
 
     public class OrderEntity : ITableEntity
@@ -45,5 +47,6 @@ namespace FunctionAppCLDV.Entities
         public double UnitPrice { get; set; } // stored as double
         public DateTimeOffset OrderDateUtc { get; set; } = DateTimeOffset.UtcNow;
         public string Status { get; set; } = "Submitted";
+        DateTimeOffset? ITableEntity.Timestamp { get; set; }
     }
 }

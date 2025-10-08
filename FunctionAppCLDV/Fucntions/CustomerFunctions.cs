@@ -51,7 +51,6 @@ namespace FunctionAppCLDV.Functions
             }
         }
 
-        // -------- CREATE CUSTOMER --------
         public record CustomerCreateUpdate(
             string? Name,
             string? Surname,
@@ -109,7 +108,7 @@ namespace FunctionAppCLDV.Functions
                 e.Email = input.Email ?? e.Email;
                 e.ShippingAddress = input.ShippingAddress ?? e.ShippingAddress;
 
-                await table.UpdateEntityAsync(e, ETag.All, TableUpdateMode.Replace);
+                await table.UpdateEntityAsync(e, Azure.ETag.All, TableUpdateMode.Replace);
                 return HttpJson.Ok(req, Map.ToDto(e));
             }
             catch

@@ -107,7 +107,7 @@ namespace FunctionAppCLDV.Functions
                 ProductId = input.ProductId,
                 ProductName = product.ProductName,
                 Quantity = input.Quantity,
-                UnitPrice = product.Price,
+                UnitPrice = (double)product.Price,
                 OrderDateUtc = DateTimeOffset.UtcNow,
                 Status = "Submitted"
             };

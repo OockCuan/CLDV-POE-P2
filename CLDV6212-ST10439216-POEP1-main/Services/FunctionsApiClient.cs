@@ -16,11 +16,11 @@ namespace CLDVPOE.Services
         private const string CustomersRoute = "customers";
         private const string ProductsRoute = "products";
         private const string OrdersRoute = "orders";
-        private const string UploadsRoute = "uploads/proof-of-payment"; // multipart
+        private const string UploadsRoute = "uploads/proof-of-payment"; 
 
         public FunctionsApiClient(IHttpClientFactory factory)
         {
-            _http = factory.CreateClient("Functions"); // BaseAddress set in Program.cs
+            _http = factory.CreateClient("Functions"); 
         }
 
         private static HttpContent JsonBody(object obj)
@@ -138,6 +138,14 @@ namespace CLDVPOE.Services
             return ToOrder(dto);
         }
 
+        public async Task<Order> CreateOrderAsync(string customerId, string productId, int quantity)
+        {
+            
+            var payload = new { customerId, productId, quantity };
+            var dto = await ReadJsonAsync<OrderDto>(await _http.PostAsync(OrdersRoute, JsonBody(payload)));
+            return ToOrder(dto);
+        }
+
         public async Task UpdateOrderStatusAsync(string id, string newStatus)
         {
             var payload = new { status = newStatus };
@@ -174,14 +182,14 @@ namespace CLDVPOE.Services
 
             return new Order
             {
-                Id = d.Id,
+                RowKey = d.Id,
                 CustomerId = d.CustomerId,
                 ProductId = d.ProductId,
                 ProductName = d.ProductName,
                 Quantity = d.Quantity,
-                UnitPrice = d.UnitPrice,
-                OrderDateUtc = d.OrderDateUtc,
-                Status = status
+                UnitPrice = (double)d.UnitPrice,
+                //OrderDate = d.OrderDateUtc,
+                //Status = status
             };
         }
 
@@ -192,7 +200,7 @@ namespace CLDVPOE.Services
             string ProductName,
             int Quantity,
             decimal UnitPrice,
-            DateTimeOffset OrderDateUtc,
+            DateTimeOffset OrderDate,
             string Status
         );
     }

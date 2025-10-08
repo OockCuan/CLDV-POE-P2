@@ -61,7 +61,7 @@ namespace CLDVPOE.Controllers
 
             try
             {
-                var updated = await _api.UpdateProductAsync(product.Id, product, imageFile);
+                var updated = await _api.UpdateProductAsync(product.ProductId, product, imageFile);
                 TempData["Success"] = $"Product '{updated.ProductName}' updated successfully!";
                 return RedirectToAction(nameof(Index));
             }

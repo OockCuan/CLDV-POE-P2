@@ -15,7 +15,7 @@ namespace CLDVPOE.Controllers
         public async Task<IActionResult> Index()
         {
             var orders = await _api.GetOrdersAsync();
-            return View(orders.OrderByDescending(o => o.OrderDateUtc).ToList());
+            return View(orders.OrderByDescending(o => o.OrderDate).ToList());
         }
 
         // -------- CREATE (GET) --------
@@ -96,7 +96,7 @@ namespace CLDVPOE.Controllers
 
             try
             {
-                await _api.UpdateOrderStatusAsync(posted.Id, posted.Status.ToString());
+                await _api.UpdateOrderStatusAsync(posted.OrderId, posted.Status.ToString());
                 TempData["Success"] = "Order updated successfully!";
                 return RedirectToAction(nameof(Index));
             }

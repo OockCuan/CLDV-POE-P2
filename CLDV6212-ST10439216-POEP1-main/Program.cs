@@ -9,14 +9,32 @@ namespace CLDVPOE
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            
             builder.Services.AddControllersWithViews();
 
+            
             builder.Services.AddScoped<IAzureStorageService, AzureStorageService>();
 
+          
             builder.Services.AddLogging();
+
+            
+            builder.Services.AddHttpClient("Functions", client =>
+            {
+                
+                var baseUrl = builder.Configuration["FunctionApi:BaseUrl"];
+                if (string.IsNullOrWhiteSpace(baseUrl))
+                    throw new InvalidOperationException("Missing configuration value: FunctionApi:BaseUrl");
+
+                client.BaseAddress = new Uri(baseUrl);
+            });
+
+            
+            builder.Services.AddScoped<IFunctionsApi, FunctionsApiClient>();
 
             var app = builder.Build();
 
+          
             var culture = new CultureInfo("en-US");
             CultureInfo.DefaultThreadCurrentCulture = culture;
             CultureInfo.DefaultThreadCurrentUICulture = culture;
@@ -29,6 +47,7 @@ namespace CLDVPOE
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseRouting();
             app.UseAuthorization();
 
@@ -40,4 +59,3 @@ namespace CLDVPOE
         }
     }
 }
-

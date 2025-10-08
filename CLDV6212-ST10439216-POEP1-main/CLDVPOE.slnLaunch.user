@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CLDVPOE.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\FunctionAppCLDV\\FunctionAppCLDV.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

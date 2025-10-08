@@ -49,5 +49,10 @@ namespace FunctionAppCLDV.Helpers
             r.WriteString(json, Encoding.UTF8);
             return r;
         }
+
+        internal static HttpResponseData BadRequest(HttpRequestData req, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

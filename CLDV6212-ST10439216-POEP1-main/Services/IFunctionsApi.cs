@@ -15,6 +15,9 @@ namespace CLDVPOE.Services
         Task<Product?> GetProductAsync(string id);
         Task<Product> CreateProductAsync(Product p, IFormFile? imageFile);
         Task<Product> UpdateProductAsync(string id, Product p, IFormFile? imageFile);
+        Task DeleteProductAsync(string id);
+
+
 
         Task<List<Order>> GetOrdersAsync();
         Task<Order?> GetOrderAsync(string id);
