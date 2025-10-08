@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj": {}
+    "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj": {
+    "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
         "projectName": "CLDVPOE",
-        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

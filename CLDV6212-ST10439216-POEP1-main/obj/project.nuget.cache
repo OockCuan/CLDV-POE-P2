@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gC5lJSWkF4o=",
+  "dgSpecHash": "/6JFcv7nXwg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\VMBackup\\CLDV6212-ST10439216-POEP1-main\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
+  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\Github\\CLDV-POE-P2\\CLDV6212-ST10439216-POEP1-main\\CLDVPOE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lab_services_student\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\lab_services_student\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",

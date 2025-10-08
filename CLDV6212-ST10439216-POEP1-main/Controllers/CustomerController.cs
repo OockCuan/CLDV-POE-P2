@@ -1,87 +1,64 @@
 ﻿using CLDVPOE.Models;
 using CLDVPOE.Services;
 using Microsoft.AspNetCore.Mvc;
-using CLDVPOE.Services;
-
 
 namespace CLDVPOE.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly IAzureStorageService _storageService;
+        private readonly IFunctionsApi _api;
 
-        public CustomerController(IAzureStorageService storageService)
-        {
-            _storageService = storageService;
-        }
+        public CustomerController(IFunctionsApi api) => _api = api;
 
         public async Task<IActionResult> Index()
         {
-            var customers = await _storageService.GetAllEntitiesAsync<Customer>();
+            var customers = await _api.GetCustomersAsync();
             return View(customers);
         }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Customer customer)
         {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    await _storageService.AddEntityAsync(customer);
-                    TempData["Success"] = "Customer created successfully!";
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", $"Error creating customer: {ex.Message}");
-                }
-            }
+            if (!ModelState.IsValid) return View(customer);
 
-            return View(customer);
+            try
+            {
+                await _api.CreateCustomerAsync(customer);
+                TempData["Success"] = "Customer created successfully!";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = $"Error creating customer: {ex.Message}";
+                return View(customer);
+            }
         }
 
         public async Task<IActionResult> Edit(string id)
         {
-            if (string.IsNullOrEmpty(id))
-            {
-                return NotFound();
-            }
-
-            var customer = await _storageService.GetEntityAsync<Customer>("Customer", id);
-            if (customer == null)
-            {
-                return NotFound();
-            }
-
-            return View(customer);
+            if (string.IsNullOrWhiteSpace(id)) return NotFound();
+            var customer = await _api.GetCustomerAsync(id);
+            return customer is null ? NotFound() : View(customer);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Customer customer)
         {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    await _storageService.UpdateEntityAsync(customer);
-                    TempData["Success"] = "Customer edited successfully!";
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", $"Error updating customer: {ex.Message}");
-                }
-            }
+            if (!ModelState.IsValid) return View(customer);
 
-            return View(customer);
+            try
+            {
+                await _api.UpdateCustomerAsync(customer.Id, customer);
+                TempData["Success"] = "Customer updated successfully!";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"Error updating customer: {ex.Message}");
+                return View(customer);
+            }
         }
 
         [HttpPost]
@@ -89,12 +66,12 @@ namespace CLDVPOE.Controllers
         {
             try
             {
-                await _storageService.DeleteEntityAsync<Customer>("Customer", id);
+                await _api.DeleteCustomerAsync(id);
                 TempData["Success"] = "Customer deleted successfully!";
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                TempData["Error"] = $"Could not delete customer {ex.Message }";
+                TempData["Error"] = $"Error deleting customer: {ex.Message}";
             }
 
             return RedirectToAction(nameof(Index));

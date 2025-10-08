@@ -12,7 +12,7 @@ namespace CLDVPOE.Models
         public ETag ETag { get; set; }
 
         [Display(Name = "Order ID")]
-        public string OrderId => RowKey;
+        public string Id { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Customer")]

@@ -1,50 +1,44 @@
 ﻿using CLDVPOE.Models;
-using Microsoft.AspNetCore.Mvc;
 using CLDVPOE.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CLDVPOE.Controllers
 {
     public class UploadController : Controller
     {
-        private readonly IAzureStorageService _storageService;
-        public UploadController(IAzureStorageService storageService)
-        {
-            _storageService = storageService;
-        }
+        private readonly IFunctionsApi _api;
 
-        public IActionResult Index()
-        {
-            return View(new FileUploadModel());
-        }
+        public UploadController(IFunctionsApi api) => _api = api;
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        public IActionResult Index() => View(new FileUploadModel());
+
+        [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(FileUploadModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return View(model);
+
+            try
             {
-                try
+                if (model.ProofOfPayment is null || model.ProofOfPayment.Length == 0)
                 {
-                    if (model.ProofOfPayment != null && model.ProofOfPayment.Length > 0)
-                    {
+                    ModelState.AddModelError("ProofOfPayment", "Please select a file to upload.");
+                    return View(model);
+                }
 
-                        var fileName = await _storageService.UploadFileAsync(model.ProofOfPayment, "payment-proofs");
-                        await _storageService.UploadToFileShareAsync(model.ProofOfPayment, "contracts", "payments");
-                        TempData["Success"] = $"File uploaded successfully! File name: {fileName}";
-                        return View(new FileUploadModel());
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("ProofOfPayment", "Please select a file to upload.");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", $"Error uploading file: {ex.Message}");
-                }
+                var fileName = await _api.UploadProofOfPaymentAsync(
+                    model.ProofOfPayment,
+                    model.OrderId,
+                    model.CustomerName
+                );
+
+                TempData["Success"] = $"File uploaded successfully! File name: {fileName}";
+                return View(new FileUploadModel());
             }
-
-            return View(model);
+            catch (Exception ex)
+            {
+                TempData["Error"] = $"File upload failed: {ex.Message}";
+                return View(model);
+            }
         }
     }
 }

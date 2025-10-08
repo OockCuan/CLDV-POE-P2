@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Fucntions\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
 
